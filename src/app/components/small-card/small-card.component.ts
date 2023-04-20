@@ -10,4 +10,8 @@ export class SmallCardComponent {
 	fotoCover: string = '';
 	@Input()
 	cardTitle: string = 'TITLE';
+	@Input()
+	id:string ="0"
+
+	constructor(){}
 }
